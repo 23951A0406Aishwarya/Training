@@ -1,0 +1,40 @@
+class Arithemetic:   
+    def add(self,a,b):
+        print(a+b)
+    def sub(self,a,b):
+        print(a-b)
+    def mul(self,a,b):
+        print(a*b)
+    def div(self,a,b):
+        print(a/b)
+ob=Arithemetic()
+ob.add(5,6)
+ob.sub(8,4)
+ob.mul(2,3)
+ob.div(10,2)
+#or
+  class Arithemetic:
+    a=0
+    b=0
+    def add(self,x,y):
+        self.a=x
+        self.b=y
+        print(self.a+self.b)
+    def sub(self,x,y):
+        self.a=x
+        self.b=y
+        print(self.a-self.b)
+    def mul(self,a,b):
+        self.a=x
+        self.b=y
+        print(self.a*self.b)
+    def div(self,a,b):
+        self.a=x
+        self.b=y
+        print(self.a/self.b)
+ob=Arithemetic()
+ob.add(5,6)
+ob.sub(8,4)
+ob.mul(2,3)
+ob.div(10,2)
+'''

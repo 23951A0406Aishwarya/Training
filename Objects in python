@@ -1,0 +1,6 @@
+class abc:
+  def fun(self):
+    print("I am a method")
+obj=abc()                       #creating object
+obj.fun()                     
+

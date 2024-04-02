@@ -1,0 +1,9 @@
+class xyz:
+  a=0
+  b=0
+  def add(self,x,y):
+      self.a=x
+      self.b=y
+      print(self.a+self.b)
+obj=xyz()
+obj.fun(2,3)
